@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Part1 {
 
-    public static void Dive() throws FileNotFoundException {
+    public static void dive() throws FileNotFoundException {
 
         int horizontal = 0;
         int depth = 0;
@@ -39,6 +39,6 @@ public class Part1 {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        Dive();
+        dive();
     }
 }
